@@ -142,6 +142,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 6rem 0;
 }
 
 .pagination span, .pagination li {
@@ -152,4 +153,26 @@ p {
 .list .pagination--selected {
     border-top: 2px solid palevioletred;
     color: palevioletred;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    color: white;
+    padding: 2rem 2rem 8rem 2rem;
+}
+
+.footer__heading {
+    margin-right: 1rem;
+}
+
+.footer__follow {
+    margin-left: auto;
+}
+
+.footer__tag, .footer__follow {
+    padding: 2px 4px;
+    border-radius: 4px;
+    background-color: dodgerblue;
 }
