@@ -83,7 +83,6 @@ p {
     display: flex;
     align-items: center;
     padding: 0;
-    margin-bottom: 6rem;
 }
 
 .categories .list li {
@@ -97,7 +96,10 @@ p {
 .articles {
     display: flex;
     flex-wrap: wrap;
-    gap: calc((1240px - 390px * 3) / 2);
+    /* gap: calc((1240px - 390px * 3) / 2); */
+    gap: 20px;
+    justify-content: space-around;
+    margin: 6rem 0;
 }
 
 .article {
@@ -128,4 +130,22 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+}
+
+/* Pagination */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination span, .pagination li {
+    color: gray;
+    padding: 12px 15px;
+}
+
+.list .pagination--selected {
+    border-top: 2px solid palevioletred;
+    color: palevioletred;
 }
