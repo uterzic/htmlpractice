@@ -91,6 +91,10 @@ p {
     font-style: italic;
 }
 
+.categories__svg svg {
+    margin-right: 1rem;
+}
+
 /* Articles */
 
 .articles {
